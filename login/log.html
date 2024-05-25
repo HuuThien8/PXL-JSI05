@@ -10,9 +10,19 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="login.css" />
   </head>
-  <body>
+  <body background="../image/monster-energy-pictures.jpg">
+    <h1 class="text-center" id="wow" class="col-12">
+      Welcome to Monster Lovers <i class="fa-solid fa-whiskey-glass"></i>
+    </h1>
     <form id="Login" class="login">
       <h1 class="name text-center">Login</h1>
       <div class="mb-3">
@@ -22,7 +32,7 @@
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
-          placeholder="Email"
+          placeholder="Enter your email"
         />
       </div>
       <div class="mb-3">
@@ -31,10 +41,10 @@
           type="password"
           class="form-control"
           id="exampleInputPassword1"
-          placeholder="Password"
+          placeholder="Enter your password"
         />
       </div>
-
+      <p>Don't have any account? <a href="../re/register.html">Register</a></p>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 

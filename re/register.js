@@ -20,10 +20,10 @@ register.addEventListener("submit", (event) => {
     alert("Please check your gmail");
   } else if (
     //!pw.value.trim().match()lowerCase//
-    pw.value.trim().length !== 8 ||
-    !/[A-Z]/.test(pw.value) || //Kiểm tra chữ hoa, chữ thường, số//
-    !/[a-z]/.test(pw.value) ||
-    !/[0-9]/.test(pw.value)
+    pw.length !== 8 ||
+    !/[A-Z]/.test(pw) || //Kiểm tra chữ hoa, chữ thường, số//
+    !/[a-z]/.test(pw) ||
+    !/[0-9]/.test(pw)
   ) {
     alert("Please check your password");
   } else {

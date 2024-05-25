@@ -26,8 +26,8 @@ body {
   margin-right: auto;
   padding: 8px 16px;
   border-radius: 8px;
-  border: 1px solid #5d26c1;
-  outline-color: #a17fe0;
+  border: 1px solid #4e4a53;
+  outline-color: #4f4b56;
 }
 
 .btn {
@@ -54,4 +54,12 @@ body {
   width: 600px;
   background-color: white;
   border-radius: 10px;
+}
+
+#wow {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
 }
