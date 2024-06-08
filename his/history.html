@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Document</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,36 +17,57 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="history.css">
   </head>
-  <body background="../image/monster-energy-pictures.jpg">
-    <h1 class="text-center" id="wow" class="col-12">
-      Welcome to AYPIKACHU <i class="fa-solid fa-whiskey-glass"></i>
-    </h1>
-    <form id="Login" class="login">
-      <h1 class="name text-center">Login</h1>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label"></label>
-        <input
-          type="text"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-          placeholder="Enter your email"
-        />
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a style="color: rgb(0, 0, 0);
+      ;" class="navbar-brand" href="../main/index.html">AYPIKACHU <i class="fa-solid fa-whiskey-glass"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-star"></i> Flavours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-book"></i> History</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../ev/event.html"><i class="fa-regular fa-calendar"></i> Event</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn btn-outline-failed" id="signOut" type="submit" >Log Out</button>
+          </form>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label"></label>
-        <input
-          type="password"
-          class="form-control"
-          id="exampleInputPassword1"
-          placeholder="Enter your password"
-        />
-      </div>
-      <p>Don't have any account? <a href="../re/register.html">Register</a></p>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    </nav>
+    
+    <h1 class="title">The history of monster energy drink:</h1>
+    <h4 class="detail">Hansen's was founded in 1935. In the 1930s, Hubert Hansen and his three sons began selling juice to film studios and retailers in Southern California under the Hansen's name. In the 1970s, Tim Hansen (the grandson of Hubert) developed and marketed a variety of sodas and juices, also under the Hansen's label.
+The company became Hansen's Juices, and later The Fresh Juice Company of California. The plant that was opened in Los Angeles in 1946 was used until operations were moved to a new plant in Azusa, California in 1993. The company filed for bankruptcy in 1988, and was acquired by the California CoPackers Corporation and renamed Hansen Natural Company. In 1990, Hansen's went public with an initial public offering. In 1997, Hansen's launched their first energy drink, called Hansen's Energy. In 1998, the company moved from Anaheim, California to Corona, California. On January 5, 2012, after energy drinks had grown to the largest source of revenue, shareholders agreed to change the name of the company from Hansen's Natural to Monster Beverage Corporation, under the new ticker MNST. Shareholders also approved an increase in the number of authorized shares of common stock to 240,000,000 shares from 120,000,000 shares.</h4>
+
+
+
+<h1 class="title">The history of AYPIKACHU:</h1>
+    <h4 class="detail">The website was founded in May 2024 by Thien. It is a website which provides monster enery drink. Although AYPIKACHU is still a new website but it has a lot of potential to become a better and better website.
+      Thank you for all of your support. </h4>
     <footer
       class="text-center text-lg-start text-white"
       style="background-color: #000613"
@@ -181,6 +202,7 @@
       </div>
       <!-- Copyright -->
     </footer>
-    <script src="login.js" type="module"></script>
+    <script src="history
+    .js" type="module"></script>
   </body>
 </html>

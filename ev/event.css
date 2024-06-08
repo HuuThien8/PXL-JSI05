@@ -1,0 +1,11 @@
+#signOut:hover {
+  background-color: #dd4b39;
+  color: white;
+}
+
+#signOut {
+  color: #dd4b39;
+  border-color: #dd4b39;
+  margin-left: 10px;
+  width: 150px;
+}
