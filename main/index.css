@@ -9,3 +9,31 @@
   margin-left: 10px;
   width: 150px;
 }
+
+.img {
+  width: 100%;
+  zoom: 0.3;
+  height: 1000px;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+
+#navbar {
+  display: flex;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.head {
+  border: none;
+  background-color: white;
+  font-size: 30px;
+}
+
+#head {
+  margin: 10px auto;
+  text-align: center;
+}
