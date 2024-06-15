@@ -10,7 +10,7 @@
   width: 150px;
 }
 .title {
-  margin-top: 25px;
+  margin-top: 125px;
   text-align: center;
   font-style: oblique;
   width: 100%;
@@ -23,5 +23,23 @@
   text-align: center;
   font-style: italic;
   font-size: 25px;
+  width: 100%;
+  padding: 0px 50px;
+}
+
+.com {
+  width: 80%;
+}
+.face {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 125px;
+}
+
+.title1 {
+  margin-top: 25px;
+  text-align: center;
+  font-style: oblique;
   width: 100%;
 }

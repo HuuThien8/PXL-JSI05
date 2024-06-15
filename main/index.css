@@ -27,7 +27,7 @@
   z-index: 10;
 }
 
-.head {
+.nut {
   border: none;
   background-color: white;
   font-size: 30px;
@@ -36,4 +36,44 @@
 #head {
   margin: 10px auto;
   text-align: center;
+}
+
+.okok {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 100px;
+}
+
+.wwow {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.image {
+  width: 100%;
+
+  transition: all 0.2s;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+.product {
+  margin-right: 100px;
+  margin-left: 217px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
