@@ -43,3 +43,16 @@
   font-style: oblique;
   width: 100%;
 }
+
+#navbar {
+  display: flex;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+#Login {
+  margin-left: 10px;
+}

@@ -6,6 +6,15 @@ import {
   onAuthStateChanged,
   signOut,
 } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+
+import {
+  getFirestore,
+  collection,
+  addDoc,
+  getDocs,
+  deleteDoc,
+  doc,
+} from "https://www.gstatic.com/firebasejs/10.12.1/firebase-firestore.js";
 const firebaseConfig = {
   apiKey: "AIzaSyC9gQZP2282KiEcJemi3ssicjV70nszsmo",
   authDomain: "pxl-jsi05-demo-db5d8.firebaseapp.com",

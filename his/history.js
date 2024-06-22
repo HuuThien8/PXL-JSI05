@@ -8,9 +8,14 @@ import {
   signOut,
 } from "../firebase.js";
 
+const btnLogout = document.getElementById("signOut");
+const btnLogin = document.getElementById("Login");
 onAuthStateChanged(auth, (user) => {
   if (user) {
     console.log(user.email);
+    btnLogout.classList.remove("d-none");
+    btnLogin.classList.add("d-none");
+
     const uid = user.uid;
   } else {
     // User is signed out
@@ -18,7 +23,6 @@ onAuthStateChanged(auth, (user) => {
   }
 });
 
-const btnLogout = document.getElementById("signOut");
 btnLogout.addEventListener("click", () => {
   signOut(auth)
     .then(() => {

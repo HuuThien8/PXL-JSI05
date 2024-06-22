@@ -49,3 +49,16 @@
   margin-right: auto;
   margin-top: 50px;
 }
+
+#navbar {
+  display: flex;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+#Login {
+  margin-left: 10px;
+}
