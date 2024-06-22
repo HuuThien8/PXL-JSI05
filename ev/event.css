@@ -9,3 +9,43 @@
   margin-left: 10px;
   width: 150px;
 }
+
+.img {
+  width: 800px;
+  height: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgdiv {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.infor {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 200px;
+}
+
+.img1 {
+  width: 800px;
+  height: 533.33px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
