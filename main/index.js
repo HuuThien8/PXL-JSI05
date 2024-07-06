@@ -75,8 +75,12 @@ function getProduct() {
     productsItem.innerHTML += ` 
     <div class="product" class="card row col-md8"  style="width: 10rem;" >
       <a href=""><img class="image" src="${products[i].img}" class="card-img-top" alt="..."></a>
-
       <div class="card-body">
+        <a href="hj" class="product-name"><p>Cow</p></a>
+        <p class="product-price">100</p>
+        <p class="product-price">100</p>
+        <p class="product-price">100</p>
+      </div>
       
     </div>`;
   }
@@ -124,8 +128,12 @@ function getProduct1() {
     productsItem1.innerHTML += ` 
     <div class="product" class="card row col-md8"  style="width: 10rem;" >
       <a href=""><img class="image" src="${products1[i].img}" class="card-img-top" alt="..."></a>
-
       <div class="card-body">
+        <a href="hj" class="product-name"><p>Cow</p></a>
+        <p class="product-price">100</p>
+        <p class="product-price">100</p>
+        <p class="product-price">100</p>
+      </div>
       
     </div>`;
   }
@@ -173,8 +181,12 @@ function getProduct2() {
     productsItem2.innerHTML += ` 
     <div class="product" class="card row col-md8"  style="width: 10rem;" >
       <a href=""><img class="image" src="${products2[i].img}" class="card-img-top" alt="..."></a>
-
       <div class="card-body">
+        <a href="hj" class="product-name"><p>Cow</p></a>
+        <p class="product-price">100</p>
+        <p class="product-price">100</p>
+        <p class="product-price">100</p>
+      </div>
       
     </div>`;
   }

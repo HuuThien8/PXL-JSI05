@@ -89,3 +89,23 @@
   font-size: 40px;
   font-weight: 480;
 }
+
+.product-name {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.product-price {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  margin-top: 10px;
+}
