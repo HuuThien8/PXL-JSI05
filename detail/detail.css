@@ -1,0 +1,118 @@
+#signOut:hover {
+  background-color: #dd4b39;
+  color: white;
+}
+
+#signOut {
+  color: #dd4b39;
+  border-color: #dd4b39;
+  margin-left: 10px;
+  width: 150px;
+}
+
+#Login {
+  margin-left: 10px;
+}
+
+.img {
+  width: 100%;
+  zoom: 0.3;
+  height: 1000px;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+
+#navbar {
+  display: flex;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.nut {
+  border: none;
+  background-color: white;
+  font-size: 30px;
+}
+
+#head {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.okok {
+  background-color: rgb(255, 255, 255); /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 100px;
+  font-weight: 480;
+}
+
+.wwow {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.image {
+  width: 100%;
+  margin-top: 15px;
+  transition: all 0.2s;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+.product {
+  margin-right: 100px;
+  margin-left: 217px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  height: 370px;
+  border-radius: 50px;
+}
+
+.product:hover {
+  background-color: rgb(242, 241, 241);
+  transform: scale(1.06);
+}
+
+#ten {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 40px;
+  font-weight: 480;
+}
+
+.product-name {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  margin-top: 65px;
+}
+
+.product-price {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  margin-top: 10px;
+}

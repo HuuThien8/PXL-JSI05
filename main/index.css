@@ -81,10 +81,13 @@
   margin-left: 217px;
   margin-top: 35px;
   margin-bottom: 50px;
+  height: 370px;
+  border-radius: 50px;
 }
 
 .product:hover {
-  background-color: rgb(225, 223, 223);
+  background-color: rgb(242, 241, 241);
+  transform: scale(1.06);
 }
 
 #ten {
