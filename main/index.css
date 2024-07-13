@@ -83,6 +83,10 @@
   margin-bottom: 50px;
 }
 
+.product:hover {
+  background-color: rgb(225, 223, 223);
+}
+
 #ten {
   text-align: center;
   margin-top: 150px;
@@ -97,7 +101,7 @@
   margin-right: auto;
   margin-left: auto;
   font-size: 20px;
-  margin-top: 25px;
+  margin-top: 65px;
 }
 
 .product-price {

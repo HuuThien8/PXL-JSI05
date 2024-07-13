@@ -1,20 +1,12 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
 import {
   getAuth,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
   signOut,
-} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/10.12.3/firebase-auth.js";
 
-import {
-  getFirestore,
-  collection,
-  addDoc,
-  getDocs,
-  deleteDoc,
-  doc,
-} from "https://www.gstatic.com/firebasejs/10.12.1/firebase-firestore.js";
 const firebaseConfig = {
   apiKey: "AIzaSyC9gQZP2282KiEcJemi3ssicjV70nszsmo",
   authDomain: "pxl-jsi05-demo-db5d8.firebaseapp.com",
@@ -28,11 +20,11 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 
 export {
-  app,
-  auth,
   getAuth,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
   signOut,
 };
+
+export { app, auth };

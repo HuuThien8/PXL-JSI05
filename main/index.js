@@ -8,6 +8,12 @@ import {
   signOut,
 } from "../firebase.js";
 
+import {
+  collection,
+  query,
+  onSnapshot,
+} from "https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore.js";
+
 const btnLogout = document.getElementById("signOut");
 const btnLogin = document.getElementById("Login");
 onAuthStateChanged(auth, (user) => {
