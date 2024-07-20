@@ -17,7 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../detail/detail.css">
+    <link rel="stylesheet" href="detail.css">
   </head>
   <body>
     <nav style="background-color: rgb(0,0,0)" id="navbar" class="navbar navbar-expand-lg bg-black">
@@ -60,11 +60,35 @@
       </div>
     </nav>
     <div id="output">
+        
         <img src="" alt="" id="img">
-        <h1 id="name"></h1>
-        <p id="price"></p>
-        <p id="cal"></p>
-        <p id="vol"></p>
+     
+        
+      <div class="dad">
+       
+          <h1 id="name"></h1>
+          <h3 class="title">Price:</h3>
+          <h3 id="price"></h3>
+
+          <div class="box">
+            <h3 class="title">Calories:</h3>
+            <h3 id="cal"></h3>
+          </div>
+          
+
+          <div class="box">
+            <h3 class="title">Volume:</h3>
+            <h3 id="vol"></h3>
+          </div>
+          
+          <h4 class="des">Carbonated Energy Drink with Taurine, L-Carnitine, Caffeine, Ginseng and B Vitamins with Sugars and Sweetener. Tear into a can of Monster Energy, the meanest energy drink on the planet. It's the ideal combo of the right ingredients in the right proportion to get the job done like only Monster can </h4>
+
+        </div>
+        
+      </div>
+
+      <div class="button">
+        <button id="add">ADD TO CART</button>
       </div>
 
     <footer
@@ -203,7 +227,6 @@
       </div>
       <!-- Copyright -->
     </footer>
-    <script src="../detail/detail
-    .js" type="module"></script>
+    <script src="detail.js" type="module"></script>
   </body>
 </html>

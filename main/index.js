@@ -1,12 +1,13 @@
+import { app } from "../firebase.js";
+
 import {
-  app,
-  auth,
   getAuth,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
   signOut,
-} from "../firebase.js";
+} from "https://www.gstatic.com/firebasejs/10.12.3/firebase-auth.js";
+const auth = getAuth(app);
 
 import {
   getFirestore,
@@ -44,6 +45,18 @@ btnLogout.addEventListener("click", () => {
     });
 });
 
+btnLogin.addEventListener("click", () => {
+  signOut(auth)
+    .then(() => {
+      // Sign-out successful.
+      window.location.href = "../login/log.html";
+    })
+    .catch((error) => {
+      // An error happened.
+      console.error(error);
+    });
+});
+
 const postQuery = query(collection(db, "Product"));
 const output = document.getElementById("BestSeller");
 onSnapshot(postQuery, (snapshot) => {
@@ -55,10 +68,6 @@ onSnapshot(postQuery, (snapshot) => {
     output.innerHTML += ` 
     <div class="product" class="card row col-md-2"  style="width: 10rem;" >
       <a href="detail.html?id=${postId}"><img class="image" src="${product.img}" class="card-img-top" alt="..."></a>
-      
-       
-     
-      
     </div>`;
   });
 });

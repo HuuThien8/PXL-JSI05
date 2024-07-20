@@ -1,12 +1,13 @@
+import { app } from "../firebase.js";
+
 import {
-  app,
-  auth,
   getAuth,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
   signOut,
-} from "../firebase.js";
+} from "https://www.gstatic.com/firebasejs/10.12.3/firebase-auth.js";
+const auth = getAuth(app);
 
 const btnLogout = document.getElementById("signOut");
 const btnLogin = document.getElementById("Login");

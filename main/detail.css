@@ -14,14 +14,6 @@
   margin-left: 10px;
 }
 
-.img {
-  width: 100%;
-  zoom: 0.3;
-  height: 1000px;
-  object-fit: cover;
-  transition: all 0.2s;
-}
-
 #navbar {
   display: flex;
   position: sticky;
@@ -67,15 +59,6 @@
   flex-direction: row;
 }
 
-.image {
-  width: 100%;
-  margin-top: 15px;
-  transition: all 0.2s;
-}
-
-.image:hover {
-  transform: scale(1.05);
-}
 .product {
   margin-right: 100px;
   margin-left: 217px;
@@ -83,11 +66,6 @@
   margin-bottom: 50px;
   height: 370px;
   border-radius: 50px;
-}
-
-.product:hover {
-  background-color: rgb(242, 241, 241);
-  transform: scale(1.06);
 }
 
 #ten {
@@ -115,4 +93,64 @@
   margin-left: auto;
   font-size: 18px;
   margin-top: 10px;
+}
+
+#name {
+  margin-top: 55px;
+  margin-left: 90px;
+  margin-bottom: 40px;
+}
+
+.title {
+  margin-left: 100px;
+  display: inline;
+}
+
+#price {
+  margin-left: 8px;
+
+  display: inline;
+}
+
+#cal {
+  margin-left: 8px;
+}
+
+#vol {
+  margin-left: 8px;
+}
+
+#output {
+  display: flex;
+}
+
+.dad {
+  margin-right: 200px;
+}
+
+.box {
+  margin-top: 45px;
+}
+
+.des {
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+#add {
+  height: 60px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+#add:hover {
+  background-color: rgb(116, 116, 116);
+  color: black;
 }
