@@ -11,12 +11,13 @@ const auth = getAuth(app);
 
 const btnLogout = document.getElementById("signOut");
 const btnLogin = document.getElementById("Login");
+const cart = document.getElementById("Login");
 onAuthStateChanged(auth, (user) => {
   if (user) {
     console.log(user.email);
     btnLogout.classList.remove("d-none");
     btnLogin.classList.add("d-none");
-
+    cart.classList.add("d-none");
     const uid = user.uid;
   } else {
     // User is signed out

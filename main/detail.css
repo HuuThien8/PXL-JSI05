@@ -1,6 +1,5 @@
-#signOut:hover {
-  background-color: #dd4b39;
-  color: white;
+body {
+  background-color: #faf0e6;
 }
 
 #signOut {
@@ -8,6 +7,19 @@
   border-color: #dd4b39;
   margin-left: 10px;
   width: 150px;
+}
+
+#cart {
+  color: white;
+  border-color: white;
+  margin-left: 10px;
+  width: 150px;
+  margin-right: 25px;
+}
+
+#cart:hover {
+  background-color: white;
+  color: black;
 }
 
 #Login {
@@ -141,16 +153,19 @@
 
 #add {
   height: 60px;
-  width: 200px;
+  width: 170px;
   border-radius: 5px;
   border: none;
   background-color: black;
   color: white;
-  margin-left: 100px;
-  margin-bottom: 50px;
+  margin-right: 190px;
+  margin-top: 100px;
 }
 
 #add:hover {
   background-color: rgb(116, 116, 116);
   color: black;
+}
+
+.img {
 }

@@ -1,3 +1,7 @@
+body {
+  background-color: #faf0e6;
+}
+
 #signOut:hover {
   background-color: #dd4b39;
   color: white;
@@ -8,6 +12,19 @@
   border-color: #dd4b39;
   margin-left: 10px;
   width: 150px;
+}
+
+#cart {
+  color: white;
+  border-color: white;
+  margin-left: 10px;
+  width: 150px;
+  margin-right: 25px;
+}
+
+#cart:hover {
+  background-color: white;
+  color: black;
 }
 
 #Login {
@@ -33,7 +50,7 @@
 
 .nut {
   border: none;
-  background-color: white;
+  background-color: #faf0e6;
   font-size: 30px;
 }
 
@@ -43,7 +60,7 @@
 }
 
 .okok {
-  background-color: rgb(255, 255, 255); /* Green */
+  background-color: #faf0e6;
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
@@ -86,7 +103,7 @@
 }
 
 .product:hover {
-  background-color: rgb(242, 241, 241);
+  background-color: rgb(186, 186, 186);
   transform: scale(1.06);
 }
 

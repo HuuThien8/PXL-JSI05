@@ -51,20 +51,23 @@
             </li>
           </ul>
           <form class="d-flex" role="search">
+            <button class="btn btn-outline-failed" id="cart" type="submit" ><i class="fa-solid fa-cart-shopping"></i> Cart</button>
+
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
+            
             <button class="btn btn-outline-success" id="Login" type="submit">Login</button>
             <button class="btn btn-outline-failed" id="signOut" type="submit" >Log Out</button>
           </form>
         </div>
       </div>
     </nav>
-    <div id="output">
+    <form id="output">
+      <div class="outin">
         
-        <img src="" alt="" id="img">
      
         
-      <div class="dad">
+        <div class="dad">
        
           <h1 id="name"></h1>
           <h3 class="title">Price:</h3>
@@ -84,12 +87,14 @@
           <h4 class="des">Carbonated Energy Drink with Taurine, L-Carnitine, Caffeine, Ginseng and B Vitamins with Sugars and Sweetener. Tear into a can of Monster Energy, the meanest energy drink on the planet. It's the ideal combo of the right ingredients in the right proportion to get the job done like only Monster can </h4>
 
         </div>
+      </div>
         
-      </div>
+        
+        
 
-      <div class="button">
-        <button id="add">ADD TO CART</button>
-      </div>
+    </form>
+
+    
 
     <footer
       class="text-center text-lg-start text-white"

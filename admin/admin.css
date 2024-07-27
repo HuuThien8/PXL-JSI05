@@ -9,6 +9,18 @@
   margin-left: 10px;
   width: 150px;
 }
+#cart {
+  color: white;
+  border-color: white;
+  margin-left: 10px;
+  width: 150px;
+  margin-right: 25px;
+}
+
+#cart:hover {
+  background-color: white;
+  color: black;
+}
 
 #Login {
   margin-left: 10px;

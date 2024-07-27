@@ -101,7 +101,7 @@ window.editData = async function (id) {
     const newPrice = prompt(" Enter new price");
     const newCal = prompt(" Enter new cal");
     const newVol = prompt(" Enter new vol");
-    await updateDoc(doc(db, "Product", id), {
+    await updateDoc(doc(db, "Users", id), {
       name: newName,
       price: newPrice,
       cal: newCal,
