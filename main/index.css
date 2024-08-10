@@ -133,3 +133,13 @@ body {
   font-size: 18px;
   margin-top: 10px;
 }
+
+.cart {
+  text-decoration: none;
+  color: white;
+}
+
+.cart:hover {
+  background-color: white;
+  color: black;
+}

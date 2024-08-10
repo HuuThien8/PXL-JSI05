@@ -2,13 +2,17 @@ body {
   background-color: #faf0e6;
 }
 
+#signOut:hover {
+  background-color: #dd4b39;
+  color: white;
+}
+
 #signOut {
   color: #dd4b39;
   border-color: #dd4b39;
   margin-left: 10px;
   width: 150px;
 }
-
 #cart {
   color: white;
   border-color: white;
@@ -24,6 +28,14 @@ body {
 
 #Login {
   margin-left: 10px;
+}
+
+.img {
+  width: 100%;
+  zoom: 0.3;
+  height: 1000px;
+  object-fit: cover;
+  transition: all 0.2s;
 }
 
 #navbar {
@@ -71,13 +83,27 @@ body {
   flex-direction: row;
 }
 
+.image {
+  width: 100%;
+  margin-top: 15px;
+  transition: all 0.2s;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
 .product {
   margin-right: 100px;
   margin-left: 217px;
   margin-top: 35px;
-  margin-bottom: 50px;
+  margin-bottom: 350px;
   height: 370px;
   border-radius: 50px;
+}
+
+.product:hover {
+  background-color: rgb(242, 241, 241);
+  transform: scale(1.06);
 }
 
 #ten {
@@ -94,7 +120,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   font-size: 20px;
-  margin-top: 65px;
+  margin-top: 1005px;
 }
 
 .product-price {
@@ -107,66 +133,6 @@ body {
   margin-top: 10px;
 }
 
-#name {
-  margin-top: 55px;
-  margin-left: 90px;
-  margin-bottom: 40px;
-}
-
-.title {
-  margin-left: 100px;
-  display: inline;
-}
-
-#price {
-  margin-left: 8px;
-
-  display: inline;
-}
-
-#cal {
-  margin-left: 8px;
-}
-
-#vol {
-  margin-left: 8px;
-}
-
-#output {
-  display: flex;
-}
-
-.dad {
-  margin-right: 200px;
-}
-
-.box {
-  margin-top: 45px;
-}
-
-.des {
-  width: 500px;
-  margin-left: 100px;
-  margin-top: 45px;
-  margin-bottom: 45px;
-}
-
-#add {
-  height: 60px;
-  width: 170px;
-  border-radius: 5px;
-  border: none;
-  background-color: black;
-  color: white;
-  margin-right: 190px;
-  margin-top: 100px;
-}
-
-#add:hover {
-  background-color: rgb(116, 116, 116);
-  color: black;
-}
-
 .cart {
   text-decoration: none;
   color: white;
@@ -175,4 +141,25 @@ body {
 .cart:hover {
   background-color: white;
   color: black;
+}
+
+#customer {
+  margin-top: 400px;
+}
+
+.card-body {
+  margin-top: 25px;
+}
+
+.delete {
+  text-decoration: none;
+  border: none;
+  background-color: #ff2d11;
+  color: white;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.delete:hover {
+  background-color: #c3230e;
 }

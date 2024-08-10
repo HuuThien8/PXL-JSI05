@@ -1,9 +1,12 @@
+import { app, auth } from "../firebase.js";
+
 import {
-  app,
-  auth,
   getAuth,
   createUserWithEmailAndPassword,
-} from "../firebase.js";
+  signInWithEmailAndPassword,
+  onAuthStateChanged,
+  signOut,
+} from "https://www.gstatic.com/firebasejs/10.12.3/firebase-auth.js";
 
 const register = document.getElementById("register");
 register.addEventListener("submit", (event) => {

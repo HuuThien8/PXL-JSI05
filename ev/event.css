@@ -79,3 +79,13 @@ body {
 #Login {
   margin-left: 10px;
 }
+
+.cart {
+  text-decoration: none;
+  color: white;
+}
+
+.cart:hover {
+  background-color: white;
+  color: black;
+}
